@@ -6,10 +6,12 @@
 
  var texto = document.querySelector('span');
 
- texto.textContent = nomeUsuario;
+ 
 
 
 
  while(nomeUsuario == ''){
     var nomeUsuario = prompt('qual seu vulgo??');
  }
+ 
+ texto.textContent = nomeUsuario;
