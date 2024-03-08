@@ -10,8 +10,15 @@
 
 
 
- while(nomeUsuario == ''){
+  while(nomeUsuario == '')   {//|| nomeUsuario == null
     var nomeUsuario = prompt('qual seu vulgo??');
  }
  
- texto.textContent = nomeUsuario;
+    if (nomeUsuario == null){
+        texto.textContent = 'usuario';
+    }else {texto.textContent = nomeUsuario;
+    }
+
+
+
+ 
