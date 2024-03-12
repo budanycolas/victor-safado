@@ -2,7 +2,9 @@ let numeroSecreto = 7;
 
 let chute = prompt('Ecolha um número entre 0 a 10');
 
-
+while(chute == ''){
+    chute = prompt('Escolha um número entre 0 a 10.')
+}
 
 if(numeroSecreto == chute){
     alert('Boa cpx');
