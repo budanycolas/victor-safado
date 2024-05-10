@@ -2,20 +2,20 @@ let numeroSecreto = Math.floor( Math.random() * 50);
 console.log(numeroSecreto);
 
 
-let chute = prompt('Quantas vezes o Gui passou mal essa semana?');
+let chute = prompt('Quantas vezes victor mentiu dar allwin');
 
 
 
 while(chute == null){
-    alert('Vai de volta tonto');
-    chute = prompt('Quantas vezes o Gui passou mal essa semana?');
+    alert('moscou');
+    chute = prompt('Quantas vezes victor mentiu dar allwin');
 }
 
 if(numeroSecreto == chute){
-    alert('Parabéns!!! Acertou safado!!');
-    console.log('Acertou safado!!')   
+    alert('NICEEEE');
+    console.log('NICEEEE')   
 } else{
-    alert('AAAAAAAA, ERROU BURROO');
-    console.log('ERROU BURROO');
+    alert('PAIA');
+    console.log('PAIA');
 
 }
