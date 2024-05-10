@@ -1,14 +1,14 @@
-// alert('Mahara acordou')
-var Mahara_presa = '';
+// alert('nycolas moscou')
+var nycolas_perdeu tudo = '';
 var texto = document.querySelector('span');
 
-while(Mahara_presa == ''){ // || Mahara_presa == null
-    Mahara_presa = prompt('Quantas vezes a Mahara ja foi presa?');
+while(nycolas_perdeu == ''){ // || nycolas_perdeu == null
+    nycolas_perdeu = prompt('Quantas vezes a Mahara ja foi presa?');
 
 }
 
-if (Mahara_presa == null){
+if (nycolas_perdeu == null){
     texto.textContent = 0;
 } else {
-    texto.textContent = Mahara_presa;
+    texto.textContent = nycolas_perdeu;
 }
