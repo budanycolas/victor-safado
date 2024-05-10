@@ -1,33 +1,21 @@
-//let numeroSecreto = Math.random() * 10;
+let numeroSecreto = Math.floor( Math.random() * 50);
+console.log(numeroSecreto);
 
-//let chute = prompt('Ecolha um número entre 0 a 10');
 
-//while(chute == ''){
-
-//chute = prompt('Escolha um número entre 0 a 10.');
-//}
-
-//while(chute == null || chute !=numeroSecreto){
-// alert("tente denovo vh 7 ");
- //chute = prompt('Escolha um número entre 0 a 10.');
-//}
-//if(numeroSecreto == chute){
-   // alert('Boa cpx');
-    //console.log('Nice');
-//}else{
-   // alert('errou cpx');
-   // console.log('paia');
-//}
+let chute = prompt('Quantas vezes o Gui passou mal essa semana?');
 
 
 
+while(chute == null){
+    alert('Vai de volta tonto');
+    chute = prompt('Quantas vezes o Gui passou mal essa semana?');
+}
 
+if(numeroSecreto == chute){
+    alert('Parabéns!!! Acertou safado!!');
+    console.log('Acertou safado!!')   
+} else{
+    alert('AAAAAAAA, ERROU BURROO');
+    console.log('ERROU BURROO');
 
-
-
-
-
-
-
-
-
+}

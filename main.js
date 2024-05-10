@@ -1,24 +1,14 @@
- //alert('bom dia cachorrada!!');
- //alert('NYCOLAS É BROXA!!!');
+// alert('Mahara acordou')
+var Mahara_presa = '';
+var texto = document.querySelector('span');
 
- var nomeUsuario = '';
+while(Mahara_presa == ''){ // || Mahara_presa == null
+    Mahara_presa = prompt('Quantas vezes a Mahara ja foi presa?');
 
+}
 
- var texto = document.querySelector('span');
-
- 
-
-
-
-  while(nomeUsuario == '')   {//|| nomeUsuario == null
-    var nomeUsuario = prompt('qual seu vulgo??');
- }
- 
-    if (nomeUsuario == null){
-        texto.textContent = 'usuario';
-    }else {texto.textContent = nomeUsuario;
-    }
-
-
-
- 
+if (Mahara_presa == null){
+    texto.textContent = 0;
+} else {
+    texto.textContent = Mahara_presa;
+}
